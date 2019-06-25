@@ -1,7 +1,7 @@
 [
   {
-    "remote": "omnirom",
-    "repository": "android_hardware_qcom_display-caf-msm8996",
+    "remote": "github",
+    "repository": "HarukeyUA/android_hardware_qcom_display-caf-msm8996",
     "target_path": "hardware/qcom/display-caf-msm8996",
     "revision": "android-9.0"
   },
