@@ -26,7 +26,7 @@ $(call inherit-product, device/xiaomi/santoni/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 # Get the prebuilt list of APNs
-$(call inherit-product, vendor/omni/config/gsm.mk)
+
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -35,15 +35,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 TARGET_BOOTANIMATION_SIZE := 720p
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
-
-PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/CarrierConfig
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
 PRODUCT_DEVICE := santoni
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := omni_santoni
+PRODUCT_NAME := nitrogen_santoni
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
