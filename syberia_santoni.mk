@@ -32,16 +32,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # must be before including omni part
-TARGET_BOOTANIMATION_SIZE := 720p
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/nitrogen/products/common.mk)
+$(call inherit-product, vendor/syberia/common.mk)
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
 PRODUCT_DEVICE := santoni
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := nitrogen_santoni
+PRODUCT_NAME := syberia_santoni
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
