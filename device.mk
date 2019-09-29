@@ -18,7 +18,7 @@ DEVICE_PATH := $(LOCAL_PATH)
 
 # Inherit from msm8937-common
 $(call inherit-product, device/xiaomi/msm8937-common/msm8937.mk)
-$(call inherit-product, vendor/nitrogen/config/qcom_utils.mk)
+
 
 # Audio
 PRODUCT_COPY_FILES += \
