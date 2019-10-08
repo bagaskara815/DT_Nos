@@ -96,7 +96,7 @@ LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/util \
         $(LOCAL_PATH)/HAL3 \
         hardware/libhardware/include/hardware \
-        hardware/qcom-caf/msm8996/libstagefrighthw \
+        hardware/qcom-caf/msm8996/media/libstagefrighthw \
         hardware/qcom-caf/msm8996/media/mm-core/inc \
         system/core/include/cutils \
         system/core/include/system \
